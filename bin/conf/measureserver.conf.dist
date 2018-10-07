@@ -1,0 +1,68 @@
+# Comments begin line with: #
+# no whitespaces allowed in keys or values
+# keys are case insensitive, values are case sensitive
+
+### Local configuration
+# If no port configuration is given, the service will not start
+Port			2324
+HTTPPort		8080
+
+#MaxClients		16
+#MaxSessions	50
+
+# Config file base directory
+#ConfBaseDir		conf/
+
+# Component type definitions
+#CompTypes			component.types
+
+# Max list configuration file, should contain a list of maxlists to load
+#MaxListConfig		maxlists.conf
+
+# If the circuits should be saved, set the directory path
+#SaveCircuits	savedcircuits/
+
+# If left empty, a default "allow all" flash policy is used
+PolicyFile flashpolicy.xml
+
+# Disabled all authentication, usable when testing without authentication backend
+#BypassAuth		0
+
+# Keep alive sessions are needed when using http
+#AllowKeepAlive 1
+
+# Module names should be separated by , and no space
+# Only one authentication module (like dbmysql) is allowed
+# Example LoadModules mod1,mod2,mod3
+
+# Enable logging
+#Log			1
+
+# Logs directory must exist for the logging to work)
+#LogDir		logs
+
+# 1-5, 5 being the most verbose
+#LogLevel	1
+
+
+### Equipment server module configuration
+UseEQ	1
+#EQ.Host				127.0.0.1
+#EQ.Port				5001
+#EQ.RetryCount		4
+#EQ.RetryTimeout	10
+
+
+### Database module configuration
+# DB.Host		localhost
+# DB.Port		3306
+# DB.User 		<user>
+# DB.Password	<password>
+# DB.Database	<database>
+
+
+### GPIBcontrol module
+#Signal analyser adress
+GPIB.SignalAnalyser	0:9:0
+
+# New line required at end of file

@@ -1,0 +1,7 @@
+Notice
+------
+The files:
+Decl-32.h
+ni488.h
+are taken from National instruments GPIB control library and is not in any way assosiated by this project
+and is not included by the GPL licensing of the project.

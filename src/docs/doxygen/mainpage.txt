@@ -1,0 +1,17 @@
+/** \mainpage DistanceLab code core documentation page
+  * \section why Why this document exist
+  * This document is created for easier maintainens and bugfixing in the system.
+  * It should be updated at the same time as the code to be of any use.
+  * \section Diagrams Design diagrams
+  * Because doxygen doesn't make system wide documentation, we have produced some design and concept diagrams:
+  * 
+  * <A HREF="diagrams\instrument_design.mdl">Overview</A>
+  *
+  *
+  * \section Standards Coding standards
+  * External document comming
+  *
+  * \section Future Future work
+  * To be written..
+  *
+  */

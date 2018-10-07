@@ -1,0 +1,2 @@
+measureserver.exe
+@pause

@@ -1,0 +1,4 @@
+LIBRARY   EQCOM
+EXPORTS
+	CreateModule	@1
+	FreeModule		@2

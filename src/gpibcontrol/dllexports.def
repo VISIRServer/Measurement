@@ -1,0 +1,4 @@
+LIBRARY   IVICONTROL
+EXPORTS
+	CreateModule	@1
+	FreeModule		@2
